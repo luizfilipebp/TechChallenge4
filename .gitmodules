@@ -1,0 +1,18 @@
+[submodule "mscliente"]
+	path = mscliente
+	url = https://github.com/GabrielleNunesS/gerenciamento-clientes
+[submodule "msentrega"]
+	path = msentrega
+	url = https://github.com/GabrielleNunesS/logistica-entregas
+[submodule "config"]
+	path = config
+	url = https://github.com/luizfilipebp/challenge4-config
+[submodule "msdiscovery"]
+	path = msdiscovery
+	url = https://github.com/luizfilipebp/msdiscovery
+[submodule "mspedido"]
+	path = mspedido
+	url = https://github.com/luizfilipebp/mspedido
+[submodule "msproduto"]
+	path = msproduto
+	url = https://github.com/luizfilipebp/msproduto
