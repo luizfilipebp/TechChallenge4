@@ -1,4 +1,4 @@
-# Gerenciamento de Clientes
+# Sistema de Gerenciamento de Pedidos Integrado com Spring e Microsserviços
 
 Este projeto é composto por vários microsserviços, incluindo um serviço de descoberta (Eureka) e um serviço de configuração (Config Server). Siga as instruções abaixo para iniciar o projeto corretamente.
 
@@ -66,7 +66,7 @@ Este projeto é composto por vários microsserviços, incluindo um serviço de d
 ## Observações
 
 - Certifique-se de que as portas configuradas para cada serviço não estejam em uso.
-- Verifique os arquivos de configuração localizado na pasta [`config`](./config) para mais detalhes.
+- Verifique os arquivos de configuração localizado na pasta [`config`](https://github.com/luizfilipebp/challenge4-config) para mais detalhes.
 ## Contato
 
 Para mais informações, entre em contato pelo discord: `.luizfilipebp` ou `.gabriellenunes`.
