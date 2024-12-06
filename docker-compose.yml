@@ -1,0 +1,50 @@
+services:
+  db-msproduto:
+    image: postgres:16.3
+    restart: always
+    ports:
+      - 5401:5432
+    environment:
+      POSTGRES_DB: produto
+      POSTGRES_USER: produto
+      POSTGRES_PASSWORD: root
+    volumes:
+      - ./database/produto:/var/lib/postgresql/data
+
+  db-mspedido:
+    image: postgres:16.3
+    restart: always
+    ports:
+      - 5402:5432
+    environment:
+      POSTGRES_DB: pedido
+      POSTGRES_USER: pedido
+      POSTGRES_PASSWORD: root
+    volumes:
+      - ./database/pedido:/var/lib/postgresql/data
+
+  db-mscliente:
+    image: postgres:16.3
+    restart: always
+    ports:
+      - 5403:5432
+    environment:
+      POSTGRES_DB: cliente
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 'root'
+    volumes:
+      - ./database/clientes:/var/lib/postgresql/data
+
+  db-msentrega:
+    image: postgres:16.3
+    restart: always
+    ports:
+      - 5404:5432
+    environment:
+      POSTGRES_DB: entregador
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 'root'
+    volumes:
+      - ./database/logistica:/var/lib/postgresql/data
+
+

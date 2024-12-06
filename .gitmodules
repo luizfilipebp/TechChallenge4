@@ -16,3 +16,6 @@
 [submodule "msproduto"]
 	path = msproduto
 	url = https://github.com/luizfilipebp/msproduto
+[submodule "msconfig"]
+	path = msconfig
+	url = https://github.com/luizfilipebp/msconfig
