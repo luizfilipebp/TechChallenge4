@@ -1,4 +1,4 @@
-# Gerenciamento de Clientes
+# Sistema de Gerenciamento de Pedidos Integrado com Spring e Microsserviços
 
 Este projeto é composto por vários microsserviços, incluindo um serviço de descoberta (Eureka) e um serviço de configuração (Config Server). Siga as instruções abaixo para iniciar o projeto corretamente.
 
